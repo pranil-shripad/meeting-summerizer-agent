@@ -1,0 +1,14 @@
+# Production Requirements
+Flask==3.0.0
+groq==0.4.1
+python-dotenv==1.0.0
+
+# Optional: For better deployments
+gunicorn==21.2.0
+flask-cors==4.0.0
+
+# Optional: For logging and monitoring
+python-logging-loki==0.3.2
+
+# Optional: For database (if you want to store meeting history)
+flask-sqlalchemy==3.1.1
